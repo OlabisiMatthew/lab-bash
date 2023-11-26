@@ -5,13 +5,10 @@
 
 2. Create a new directory called new_dir.
 
-
  Command_to_answer_the_question
  mkdir new_dir
 
-
 3. Delete/Remove the directory new_dir.
-
 
  Command_to_answer_the_question
  rm -rf new_dir
@@ -70,17 +67,52 @@ cat lorem/sed.txt
 
 13. Find who is the system user.
 
+Command_to_answer_the_question
+ git config user.name
+
+
 
 14. Find the current path of the directory you are in.
 
+Command_to_answer_the_question
+pwd
+
 15. List all files with the extension .txt in lorem folder.
+
+Command_to_answer_the_question
+ git ls-files 'lorem/*.txt'
+
 
 16. Count the rows in sed.txt file from lorem folder. Look concatenate cat and wc with the pipe |.
 
+Command_to_answer_the_question
+cat lorem/sed.txt | wc -l
+
+
 17. Count the files which start with lorem in all directories.
 
+Command_to_answer_the_question
+ git ls-files *lorem | wc -l
 
+18. Store your name in a variable with read command.
 
+Command_to_answer_the_question
+read name
+
+19. Print that variable.
+
+Command_to_answer_the_question
+echo $name
+
+20. Create a new directory named with variable name.
+
+Command_to_answer_the_question
+ mkdir name
+
+21.Remove that directory.
+
+Command_to_answer_the_question
+rm -rf name
 
 
 
